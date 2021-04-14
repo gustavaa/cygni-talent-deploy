@@ -54,7 +54,7 @@ jobs:
           ./scripts/deploy.sh
         shell: bash
         env:
-          SERVER: "<SERVER-IP>"
+          SERVER: "172.105.246.242"
           DEPLOY_USER: "github"
 
       # Runs a single command using the runners shell
