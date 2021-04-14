@@ -50,12 +50,12 @@ jobs:
           SSH_KNOWN_HOSTS: ${{secrets.SSH_KNOWN_HOSTS}}
           
       - name: Deploy
-          run: |
-            ./scripts/deploy.sh
-          shell: bash
-          env:
-            SERVER: "<SERVER-IP>"
-            DEPLOY_USER: "github"
+        run: |
+          ./scripts/deploy.sh
+        shell: bash
+        env:
+          SERVER: "<SERVER-IP>"
+          DEPLOY_USER: "github"
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
