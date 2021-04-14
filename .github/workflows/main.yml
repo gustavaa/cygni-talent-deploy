@@ -55,7 +55,7 @@ jobs:
         shell: bash
         env:
           SERVER: "172.105.246.242"
-          DEPLOY_USER: "github"
+          DEPLOY_USER: "ghub"
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
